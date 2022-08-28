@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Vida Conway</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=BioRhyme&family=Cabin&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.css">
+    <script defer src="src/lib/p5.min.js"></script>
+    <script defer src="src/game.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Jogo da Vida de Conway</h1>
+        </div>
+      
+        <div class="area-de-jogo">
+          
+        </div>
+        <div class="controles">
+            <button id="limpar-tabuleiro" class="control-button"> Resetar Tabuleiro</button>
+            <button id="executar-jogo" class="control-button"> Iniciar Jogo </button>
+            <button id="gerar-tabuleiro" class="control-button"> Gerar novo tabuleiro</button>
+            <button id="regras-jogo" class="control-button"> Regras do Jogo</button>
+        </div>
+       
+    </div>
+    <div id="lista-regras" class="regras-oculto">
+    </div>
+</body>
+
+</html>
